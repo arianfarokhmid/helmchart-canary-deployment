@@ -1,3 +1,4 @@
+### step 1
 # In this scenario, we are deploying a mock application using Helm in the prod-ns namespace.
 
 # Let's explore what we have deployed
