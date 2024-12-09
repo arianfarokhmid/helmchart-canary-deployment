@@ -5,6 +5,7 @@
 
 ## first of you have to clone the repository:
 ```bash
+git clone https://github.com/arianfarokhmid/helmchart-canary-deployment.git
 ```
 ## Verify the deployed release
 ```bash
