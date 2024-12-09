@@ -1,12 +1,24 @@
 ### step 1
-# In this scenario, we are deploying a mock application using Helm in the prod-ns namespace.
 
-# Let's explore what we have deployed
+# prerequisite
+1) kubernetes cluster
+2) helm installed
+
 
 ## first of you have to clone the repository:
 ```bash
 git clone https://github.com/arianfarokhmid/helmchart-canary-deployment.git
 ```
+## after cloning the repo use this command to install chart:
+```bash
+kubectl create ns prod-ns
+helm install mock-app mock-app-canary -n prod-ns
+```
+
+
+## In this scenario, we are deploying a mock application using Helm in the prod-ns namespace.
+## Let's explore what we have deployed
+
 ## Verify the deployed release
 ```bash
 helm list -n prod-ns
