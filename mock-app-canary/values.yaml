@@ -1,0 +1,8 @@
+appName: mock-app
+message: "We are exploring canary deployment"
+image:
+  repository: benmalekarim/mock-app
+  canaryTag: NOT_DEFINED_YET
+  tag: v1.0.0
+canary:
+  enabled: false
