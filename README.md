@@ -5,7 +5,7 @@
 2) helm installed
 
 
-## first of you have to clone the repository:
+## first of ,you have to clone the repository:
 ```bash
 git clone https://github.com/arianfarokhmid/helmchart-canary-deployment.git
 ```
